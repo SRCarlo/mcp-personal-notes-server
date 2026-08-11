@@ -536,7 +536,7 @@ Full Stack Java Developer | AI • Gen AI • IoT • Cloud
 
 I build full-stack applications, AI-powered projects, and developer-focused tools while continuously exploring new technologies.
 
-🔗 **GitHub:** [@SRCarlo](https://github.com/SRCarlo) | 🌐 **Portfolio:** [shubhuuraut.vercel.app](https://shubhuuraut.vercel.app/) | 💼 **LinkedIn:** [Shubham Raut](https://www.linkedin.com/in/shubham-raut-865a21203/)
+🔗 **GitHub:** [@SRCarlo](https://github.com/SRCarlo) | 🌐 **Portfolio:** [Shubham Raut](https://shubhuuraut.vercel.app/) | 💼 **LinkedIn:** [Shubham Raut](https://www.linkedin.com/in/shubham-raut-865a21203/)
 
 ---
 
