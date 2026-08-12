@@ -18,25 +18,16 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-// ==========================================
 // CREATE MCP SERVER
-// ==========================================
-
 const mcpServer = new McpServer({
   name: "mcp-personal-notes-server",
   version: "1.0.0",
 });
 
-// ==========================================
 // REGISTER MCP TOOLS
-// ==========================================
-
 registerNoteTools(mcpServer);
 
-// ==========================================
 // HEALTH CHECK
-// ==========================================
-
 app.get("/", (req, res) => {
   res.json({
     status: "success",
@@ -52,10 +43,7 @@ app.get("/health", (req, res) => {
   });
 });
 
-// ==========================================
 // MCP ENDPOINT
-// ==========================================
-
 app.post("/mcp", async (req, res) => {
   try {
     const transport = new StreamableHTTPServerTransport({
@@ -88,10 +76,7 @@ app.post("/mcp", async (req, res) => {
   }
 });
 
-// ==========================================
 // START SERVER
-// ==========================================
-
 async function startServer() {
   try {
     await testDatabaseConnection();
